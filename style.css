@@ -1,10 +1,5 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
-    /* background: #1f2937; */
-}
-
-.dark-background-color {
-    background-color: #1f2937;
 }
 
 .hero-secondary-text {
@@ -12,6 +7,11 @@
     font-size: 18px;
     text-decoration: none;
 }
+
+.hero-secondary-text2 {
+    color: #1f2937;
+    font-size: 18px;
+} 
 
 .hero-main-text {
     color: #f9faf8;
@@ -28,6 +28,7 @@
 
 .button-color {
     background-color: #3882f6;
+    color: #f9faf8;
 }
 
 .information-header-text {
@@ -36,7 +37,7 @@
     color: #1f2937;
 }
 
-.quote-section-background {
+.quote-background {
     background-color: #e5e7eb;
 }
 
@@ -46,15 +47,22 @@
     color: #1f2937;
 }
 
+.quote-author {
+    font-size: 18px;
+    font-weight: bold;
+}
+
 body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    background-color: #1f2937;
 }
 
 .middle {
     flex: 1;
     margin: 0;
+    background-color: #fff;
 }
 
 .header {
@@ -68,10 +76,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.header, .intro, .footer {
-    background-color: #1f2937;
 }
 
 .header ul {
