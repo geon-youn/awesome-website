@@ -1,0 +1,89 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    /* background: #1f2937; */
+}
+
+.dark-background-color {
+    background-color: #1f2937;
+}
+
+.hero-secondary-text {
+    color: #e5e7eb;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.hero-main-text {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: bolder;
+    margin: 0px;
+}
+
+.header-logo-text {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.button-color {
+    background-color: #3882f6;
+}
+
+.information-header-text {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.quote-section-background {
+    background-color: #e5e7eb;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.middle {
+    flex: 1;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0% 20%;
+    color: #f9faf8;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header, .intro, .footer {
+    background-color: #1f2937;
+}
+
+.header ul {
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
