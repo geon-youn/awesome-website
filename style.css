@@ -1,3 +1,5 @@
+/* Shared Styles */
+
 html, body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
@@ -14,42 +16,16 @@ h1, p {
     text-decoration: none;
 }
 
-.big-text {
+button {
+    background-color: #3882f6;
     color: #f9faf8;
-    font-size: 4rem;
-    font-weight: bolder;
-    margin: 0px;
-}
-
-.header-text {
-    color: #f9faf8;
-    font-size: 2rem;
+    border-radius: 0.5rem;
+    padding: 0.3rem 2.5rem;
+    font-size: 1rem;
     font-weight: bold;
 }
 
-.info-section h1 {
-    font-size: 3rem;
-    font-weight: bolder;
-    color: #1f2937;
-    text-align: center;
-}
-
-.quote-background {
-    background-color: #e5e7eb;
-}
-
-.quote-text {
-    font-size: 3rem;
-    font-style: italic;
-    font-weight: lighter;
-    color: #1f2937;
-    margin: 0;
-}
-
-.quote-author {
-    font-size: 1.5rem;
-    font-weight: bold;
-}
+/* Header and Footer Section */
 
 body {
     display: flex;
@@ -89,16 +65,31 @@ body {
     align-items: center;
 }
 
+.header-text {
+    color: #f9faf8;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
 .header .logo {
     font-size: 1.5rem;
     font-weight: bold;
 }
+
+/* Title Section */
 
 .intro {
     background-color: #1f2937;
     display: flex;
     padding: 7% 10%;
     gap: 3%;
+}
+
+.intro h1 {
+    color: #f9faf8;
+    font-size: 4rem;
+    font-weight: bolder;
+    margin: 0px;
 }
 
 .intro .left {
@@ -111,15 +102,6 @@ body {
     gap: 3%;
 }
 
-button {
-    background-color: #3882f6;
-    color: #f9faf8;
-    border-radius: 0.5rem;
-    padding: 0.3rem 2.5rem;
-    font-size: 1rem;
-    font-weight: bold;
-}
-
 .intro .right {
     display: flex;
     flex-basis: 50%;
@@ -130,6 +112,8 @@ button {
     height: auto;
 }
 
+/* Info Section (One Piece Characters) */
+
 .info-section {
     display: flex;
     flex-direction: column;
@@ -137,6 +121,13 @@ button {
     justify-content: space-between;
     padding: 5%;
     gap: 2rem;
+}
+
+.info-section h1 {
+    font-size: 3rem;
+    font-weight: bolder;
+    color: #1f2937;
+    text-align: center;
 }
 
 .infos {
@@ -165,6 +156,8 @@ button {
     text-align: center;
 }
 
+/* Quote Section (Lost Ark Quote) */
+
 .quotes {
     display: flex;
     flex-direction: column;
@@ -176,6 +169,25 @@ button {
     text-align: right;
     align-self: flex-end;
 }
+
+.quote-background {
+    background-color: #e5e7eb;
+}
+
+.quote-text {
+    font-size: 3rem;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+    margin: 0;
+}
+
+.quote-author {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Sign Up Section (Conscription) */
 
 .signup {
     border-radius: 0.5rem;
